@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -46,15 +45,16 @@ const Navbar = () => {
       <div className="nav-logo-container">
         <img src={Logo} alt="" />
       </div>
+      <div className="search-container">
+        <input type="text" placeholder="Search..." />
+      </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Testimonials</a>
-        <a href="./Contact.js">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        <a href="">Contact</a>
+  
+        <button className="primary-button">Sign up</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -66,7 +66,6 @@ const Navbar = () => {
           onClick={() => setOpenMenu(false)}
           onKeyDown={() => setOpenMenu(false)}
         >
-          
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>

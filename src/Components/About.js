@@ -62,9 +62,10 @@ const About = () => {
  <br />
 
  <div className="green">
-    <h1></h1>
-    
-    <button> View</button>
+    <h1>with sympathy</h1>
+    <h4>Send comfort with a thoughtful arrangement.</h4>
+    {/* <img src="путь_к_вашему_изображению" alt=""></img> */}
+    <button>SHOP SYMPATHY</button>
  </div>
 
 
@@ -110,8 +111,20 @@ const About = () => {
                 </div> 
             </div> 
         </section> 
+        <br />
+ <br />
+ <br />
+ <br />
+ <br />
+        <div className="green2">
+    <h1>Bloom & Wild x Liberty</h1>
+    <h4>We designed these bloom lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem error nihil repellat id, cupiditate neque odit omnis harum, fugiat nesciunt cum quae ex enim sed molestias, necessitatibus ipsa nostrum hik huhgyf huiuog dilantuk.</h4>
+    {/* <img src="путь_к_вашему_изображению" alt=""></img> */}
+    <button>Find out more</button>
+ </div>
       </div>
     </div>
+    
   );
 };
 

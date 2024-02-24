@@ -1,7 +1,7 @@
 import React from "react";
 import Medina from "../Assets/medina.jpg";
 import Nurshat from "../Assets/nurshat.jpg";
-import Amina from "../Assets/amiina.jpg";
+import Amina from "../Assets/amiinaaa.jpg";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -12,20 +12,22 @@ const Testimonial = () => {
         <h1 className="primary-heading">Who's in</h1>
       </div>
       <div className="testimonial-section-bottom">
-        
         <div className="image-section">
-            <div className="imagebox">
-                <img src={Medina} alt="" />
-                <h1>Medina</h1>
-            </div>
-            <div className="image-section">
-                <img src={Nurshat} alt="" />
-                <h1>Nurshat</h1>
-            </div>
-            <div className="image-section">
+          <div className="imagebox">
+            <img src={Medina} alt="" />
+            <h1>Medina</h1>
+            <h3>Frontend Developer</h3>
+          </div>
+          <div className="imagebox">
+            <img src={Nurshat} alt="" /> 
+            <h1>Nurshat</h1>
+            <h3>Project Manager</h3>
+          </div>
+          <div className="imagebox">
             <img src={Amina} alt="" />
-                <h1>Amina</h1>
-            </div>
+            <h1>Amina</h1>
+            <h3>Backend Developer</h3>
+          </div>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
@@ -41,7 +43,10 @@ const Testimonial = () => {
         <h2></h2>
       </div>
     </div>
+    
   );
 };
+
+
 
 export default Testimonial;
